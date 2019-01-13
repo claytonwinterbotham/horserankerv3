@@ -1,0 +1,282 @@
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #414345;
+}
+
+.container{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-header{
+    position: relative;
+    -webkit-box-shadow: 1px 5px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 3px -1px rgba(0,0,0,0.75);
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    height: 100px;
+}
+
+.btn{
+    width: 100%;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: .7em;
+    bottom: .5em;
+    color:#89cff0;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 3em;
+    text-shadow:  
+    4px 4px 4px #000;
+}
+
+.logout-btn{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 2em;
+    bottom: .5em;
+    color:#89cff0
+   
+}
+
+.about-btn{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 8em;
+    bottom: .5em;
+    color:#89cff0
+   
+}
+
+
+
+.admin-dashboard-button{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 2em;
+    bottom: 4em;
+    color: #fff;
+    font-style: italic;
+    font-size: .9em;
+}
+
+.welcome-message{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 2.5em;
+    top: 7em;
+    color: #BDB959;
+    font-style: italic;
+}
+
+.login-page, .register-page{
+    background-color: #000;
+    background-image: url("../../src/images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    display: table;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.login-page form, .register-page form{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000; 
+    font-size: 1em;
+    padding-top: 5rem;
+}
+
+.login-page form button, .register-page form button{
+    background: #BDB959; 
+    border-color: #BDB959 
+}
+
+.login-page form button:hover, .register-page form button:hover{
+    background: #A3A055;
+    border-color: #BDB959  
+}
+
+.page-header {
+    margin-bottom: 1em;
+}
+
+.page-header h1 {
+   margin: 0;
+}
+
+.back-button{
+    margin: 1em;
+}
+
+.home-content, .about-content{
+    background-color: #414345;
+    padding: 0 3em;
+}
+
+.about-content{
+    color: #fff;
+    margin-bottom: 3em;
+}
+
+.about-text{
+    margin-top: 3em;
+}
+
+.about text > h3, h4, ul, li {
+    padding: .5em;
+}
+
+.admin-page{
+    background-color: #414345;
+    padding: 0 3em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000; 
+    font-size: 1em;
+}
+
+.admin-content{
+    padding-top: 2em;
+}
+
+.horse-list-content{
+    background-color: #414345;
+    padding: 0 3em;
+}
+
+.horse-detail-content{
+    background-color: #414345;
+    padding: 0 3em;
+}
+
+.main-content{
+    margin-top: 2em;
+}
+
+.track-list{
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    padding: 0;
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.card-header {
+    padding: .1rem .2rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color:#4d4f52;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-block {
+    background: #a3a055;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000; 
+    font-size: 1.1rem;
+
+}
+
+.date-item{
+    cursor: pointer;
+
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #4d4f52;
+    background-clip: border-box;
+    border: 1px solid #4d4f52;
+    border-radius: .25rem;
+}
+
+.card-header .btn {
+    width: 100%;
+}
+.card-header .btn-link {
+    font-weight: 400;
+    color: #007bff;
+    background-color: transparent;
+}
+.card-header .btn {
+    color: #f2a3ad;
+    text-shadow: 1px 1px 1px #000; 
+    font-size: 1.1em;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .9em;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.loading em{
+    font-size: 1.5em;
+    color: #ABE4FF;
+}
+
+.back-button{
+    background: #BDB959; 
+    border-color: #BDB959 
+}
+
+.back-button:hover{
+    background: #A3A055;
+    border-color: #BDB959  
+}
+
+.table_instructions{
+    margin-left: 1.5em;
+    color: #A3A055;
+}
+
+.attribute{
+    color: #a19696;
+}
+
+.help-block{
+    color: #A3A055 
+}
+
+.password-instructions{
+    color: pink;
+}
